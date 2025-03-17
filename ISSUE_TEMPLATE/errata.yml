@@ -1,0 +1,46 @@
+name: Report Errata
+description: Report an error or inconsistency in the CORDEX-FPSCONV data or metadata
+title: "<short description>"
+labels: ["Errata"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem with the data from CORDEX-FPSCONV. Please fill out the following fields.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue clearly. Include what is wrong and what it should be.
+      placeholder: >
+        Example:
+        Relative humidity variables on pressure levels in the CLMcom-ETH simulations have wrong names.
+        The 6-hourly files and variables should be called hurPLEV but are called hursPLEV instead.
+    validations:
+      required: true
+
+  - type: input
+    id: variables
+    attributes:
+      label: Variables
+      description: List all affected variable names (comma-separated). Use "All" if the problem affects all variables.
+    validations:
+      required: true
+
+  - type: input
+    id: model
+    attributes:
+      label: Model
+      description: `source_id` of the model(s) involved (comma-separated)
+    validations:
+      required: true
+
+  - type: input
+    id: experiment
+    attributes:
+      label: Experiment
+      description: Affected experiment_id(s). Use "All" if all experiments ("evaluation", "historical", "rcp85") are affected.
+      placeholder: All
+    validations:
+      required: true
