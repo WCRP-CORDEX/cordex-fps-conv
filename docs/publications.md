@@ -2,6 +2,7 @@
 
 ## 2025
 
+ * Poncet, N., Tramblay, Y., Lucas-Picher, P., Thirel, G., Caillaud, C.: Projections of extreme rainfall and floods in Mediterranean basins from an ensemble of convection-permitting models, Climatic Change, [https://doi.org/10.1007/s10584-025-03983-8](https://doi.org/10.1007/s10584-025-03983-8), 2025.
  * Sangelantoni, L., Sobolowski, S., Soares, P., Goergen, K., Cardoso, R., Adinolfi, M., Dobler, A., Katragkou, E., Scoccimarro, E., Ferretti, R., Tölle, M., Feldmann, H.: Heatwave Future Changes From an Ensemble of Km‐Scale Regional Climate Simulations Within CORDEX‐FPS Convection, Geophysical Research Letters, [https://doi.org/10.1029/2024GL111147](https://doi.org/10.1029/2024GL111147), 2025.
 
 ## 2024
