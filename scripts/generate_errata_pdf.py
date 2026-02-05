@@ -36,6 +36,8 @@ def extract_metadata(issue):
         "Model": "",
         "Experiment": ""
     }
+    if 'wontfix' in [x['name'] for x in issue['labels']]:
+        metadata["Status"] = "Won't fix"
     headings = ["Variables", "Model", "Experiment"]
     for heading in headings:
         match = re.search(rf"#+ {heading}\s*(.+?)(?=\n#|$)", body, re.DOTALL)
@@ -86,7 +88,7 @@ def generate_html(data):
     # Build HTML table
     rows = ""
     for row in data:
-        status_class = f"status-{row['Status'].replace(' ', '-').lower()}"
+        status_class = "status-" + row['Status'].replace("'", "").replace(' ', '-').lower()
         rows += f"""
         <tr class="{status_class}">
             <td>{row['Date']}</td>
@@ -132,7 +134,7 @@ def save_pdf(html_content, output_file):
 if __name__ == "__main__":
     label = "Errata"
     issues = fetch_issues_with_label(label)
-    #ic(issues) 
+    ic(issues) 
     parsed_data = [extract_metadata(issue) for issue in issues]
     parsed_data.sort(key=lambda x: x['Date'])  # Sort by date
     
