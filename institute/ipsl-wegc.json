@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
     "id": "ipsl-wegc",
-    "type": "institution"
+    "type": "organisation"
 }
