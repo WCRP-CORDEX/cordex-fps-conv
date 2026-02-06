@@ -1,0 +1,5 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cnrm-cerfacs-cnrm-cm5",
+    "type": "source"
+}

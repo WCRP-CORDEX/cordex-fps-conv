@@ -1,0 +1,5 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hclimcom-hclim38-arome",
+    "type": "model"
+}

@@ -1,0 +1,239 @@
+{
+  "project_id": "cordex-fpsconv",
+  "description": "CORDEX Flagship Pilot Study on Convective phenomena at high resolution over Europe and the Mediterranean",
+  "drs_specs": [
+    {
+      "type": "directory",
+      "separator": "/",
+      "parts": [
+        {
+          "collection_id": "activity",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "product",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "domain",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "institute",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "driving_model",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "experiment",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "ensemble",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "rcm_model",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "rcm_version",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "time_frequency",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "variable",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "version",
+          "is_required": true,
+          "kind": "collection"
+        }
+      ]
+    },
+    {
+      "type": "file_name",
+      "separator": "_",
+      "properties": {
+        "extension": "nc",
+        "extension_separator": "."
+      },
+      "parts": [
+        {
+          "collection_id": "variable",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "domain",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "driving_model",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "experiment",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "ensemble",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "rcm_model",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "rcm_version",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "time_frequency",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "time_range",
+          "is_required": false,
+          "kind": "collection"
+        }
+      ]
+    },
+    {
+      "type": "dataset_id",
+      "separator": ".",
+      "parts": [
+        {
+          "collection_id": "product",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "domain",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "institute",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "driving_model",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "experiment",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "ensemble",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "rcm_model",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "rcm_version",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "time_frequency",
+          "is_required": true,
+          "kind": "collection"
+        },
+        {
+          "collection_id": "variable",
+          "is_required": true,
+          "kind": "collection"
+        }
+      ]
+    }
+  ],
+  "global_attributes_specs": {
+    "specs": {
+      "activity": {
+          "source_collection": "activity",
+          "value_type": "string"
+      },
+      "domain": {
+          "source_collection": "domain",
+          "value_type": "string"
+      },
+      "driving_model": {
+          "source_collection": "driving_model",
+          "value_type": "string"
+      },
+      "ensemble": {
+          "source_collection": "ensemble",
+          "value_type": "string"
+      },
+      "experiment": {
+          "source_collection": "experiment",
+          "value_type": "string"
+      },
+      "institute": {
+          "source_collection": "institute",
+          "value_type": "string"
+      },
+      "product": {
+          "source_collection": "product",
+          "value_type": "string"
+      },
+      "rcm_model": {
+          "source_collection": "rcm_model",
+          "value_type": "string"
+      },
+      "rcm_version": {
+          "source_collection": "rcm_version",
+          "value_type": "string"
+      },
+      "time_frequency": {
+          "source_collection": "time_frequency",
+          "value_type": "string"
+      },
+      "time_range": {
+          "source_collection": "time_range",
+          "value_type": "string"
+      },
+      "variable": {
+          "source_collection": "variable",
+          "value_type": "string"
+      },
+      "version": {
+          "source_collection": "version",
+          "value_type": "string"
+      }
+    }
+  }
+}
