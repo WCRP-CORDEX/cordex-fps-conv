@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
     "id": "clmcom-cmcc-cclm5-0-9",
-    "type": "model"
+    "type": "source"
 }

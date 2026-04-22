@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
     "id": "6hr",
-    "type": "time-frequency"
+    "type": "frequency"
 }

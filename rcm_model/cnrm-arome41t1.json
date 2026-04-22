@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
     "id": "cnrm-arome41t1",
-    "type": "model"
+    "type": "source"
 }

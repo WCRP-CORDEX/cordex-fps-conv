@@ -2,7 +2,7 @@
     "@context": {
         "id": "@id",
         "type": "@type",
-        "@base": "https://esgvoc.ipsl.fr/resource/universe/model-version/",
-        "model-version": "https://esgvoc.ipsl.fr/resource/universe/model-version"
+        "@base": "https://esgvoc.ipsl.fr/resource/universe/regex/",
+        "@vocab": "http://schema.org/"
     }
 }

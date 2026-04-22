@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
     "id": "ipsl-wrf381ce",
-    "type": "model"
+    "type": "source"
 }

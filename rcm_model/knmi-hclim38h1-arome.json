@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
     "id": "knmi-hclim38h1-arome",
-    "type": "model"
+    "type": "source"
 }

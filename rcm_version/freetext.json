@@ -1,0 +1,6 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "freetext",
+    "type": "regex",
+    "regex": "^fpsconv-x[012][yz]?n[12]-v[12]$"
+}
