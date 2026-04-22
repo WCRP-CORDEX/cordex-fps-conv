@@ -1,0 +1,5 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "knmi-ec-earth",
+    "type": "source"
+}

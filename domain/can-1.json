@@ -1,0 +1,5 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "can-1",
+    "type": "region"
+}

@@ -1,0 +1,49 @@
+# Global attributes specification for CORDEX-FPSCONV netCDF files
+
+- source_collection: activity
+  is_required: true
+  value_type: string
+
+- source_collection: domain
+  is_required: true
+  value_type: string
+
+- source_collection: driving_model
+  is_required: true
+  value_type: string
+
+- source_collection: ensemble
+  is_required: true
+  value_type: string
+
+- source_collection: experiment
+  is_required: true
+  value_type: string
+
+- source_collection: institute
+  is_required: true
+  value_type: string
+
+- source_collection: product
+  is_required: true
+  value_type: string
+
+- source_collection: rcm_model
+  is_required: true
+  value_type: string
+
+- source_collection: rcm_version
+  is_required: true
+  value_type: string
+
+- source_collection: time_frequency
+  is_required: true
+  value_type: string
+
+- source_collection: variable
+  is_required: true
+  value_type: string
+
+- source_collection: version
+  is_required: true
+  value_type: string

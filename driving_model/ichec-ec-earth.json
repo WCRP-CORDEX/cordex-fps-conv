@@ -1,0 +1,5 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ichec-ec-earth",
+    "type": "source"
+}
